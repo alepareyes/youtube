@@ -7,6 +7,7 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/grid";
+@import "layout/nav";
 
 // Components
 @import "components/buttons";
@@ -17,8 +18,3 @@
 
 // Pages
 @import "pages/index";
-
-body {
-  margin: 0;
-  padding: 0;
-}

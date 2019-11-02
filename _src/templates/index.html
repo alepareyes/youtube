@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Youtube by alepa</title>
     <link rel="icon" href="./scss/logo-yt.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
@@ -9,12 +10,15 @@
   </head>
 
   <body>
-    <div>
+    <header>
       <partial src="_header.html" label="Header"></partial>
-    </div>
-    <div>
+    </header>
+
+    <section class="nav">
       <partial src="_nav.html" label="Main"></partial>
+    </section>
+    <main class="main">
       <partial src="_main.html" label="Main"></partial>
-    </div>
+    </main>
   </body>
 </html>
