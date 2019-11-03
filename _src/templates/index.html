@@ -7,18 +7,22 @@
     <link rel="icon" href="./scss/logo-yt.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/b9e106a0ae.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="body">
     <header>
       <partial src="_header.html" label="Header"></partial>
     </header>
 
-    <section class="nav">
-      <partial src="_nav.html" label="Main"></partial>
-    </section>
-    <main class="main">
-      <partial src="_main.html" label="Main"></partial>
-    </main>
+    <div class="content">
+      <section class="nav">
+        <partial src="_nav.html" label="Main"></partial>
+
+      </section>
+      <main class="main">
+        <partial src="_main.html" label="Main"></partial>
+      </section>
+    </div>
   </body>
 </html>
