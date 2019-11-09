@@ -4,9 +4,8 @@
   padding-inline-start: 50px;
   padding-inline-end: 50px;
   align-items: center;
-  width: 100vw;
   height: 60px;
-  background-color: #3f3f3f;
+  background-color: #272727;
 
   &__logo {
     display: flex;
@@ -16,7 +15,10 @@
   }
 
   &__nav {
-    display: block;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
     position: relative;
 
     &__item {
@@ -24,7 +26,7 @@
     }
 
     &__avatar {
-      display: inline;
+      display: inline-block;
       width: 32px;
       height: 32px;
       border-radius: 50%;
@@ -34,9 +36,12 @@
 }
 .topnav input[type="text"] {
   font-size: 17px;
-  background-color: #282828;
+  background-color: #121212;
   width: 500px;
   height: 30px;
+  border-style: unset;
+  padding: 5px;
+  border: 0.1px #393939 solid;
 }
 
 .fas {
